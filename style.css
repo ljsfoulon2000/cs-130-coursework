@@ -1,14 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0px;
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("./images/Black-and-White-Fashion.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
 }
-header, section {
+header{
+    background-color: blue;
+    color: white;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section {
+    width: 50%;
+    background-color: whitesmoke;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+header {
     padding: 20px;
+
 }
+
 p, li {
     line-height: 1.5em;
 }
